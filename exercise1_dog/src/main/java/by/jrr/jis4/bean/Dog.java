@@ -7,7 +7,6 @@ public class Dog {
     private String color;
     private String name;
 
-
     public Dog() {
         // no args constructor
     }
