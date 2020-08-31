@@ -12,6 +12,7 @@ public class Dog {
     }
 
     public int getAge() {
+
         return age;
     }
 
@@ -24,10 +25,12 @@ public class Dog {
     }
 
     public void setColor(String color) {
+
         this.color = color;
     }
 
     public String getName() {
+
         return name;
     }
 

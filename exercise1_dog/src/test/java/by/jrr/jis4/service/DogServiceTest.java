@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 
 public class DogServiceTest {
 
+
     @Test
     public void voice() {
         Dog dog = new Dog();
