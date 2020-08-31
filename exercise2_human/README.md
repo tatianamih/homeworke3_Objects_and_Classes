@@ -1,0 +1,1 @@
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=tatianamih_homeworke3_Objects_and_Classes)](https://sonarcloud.io/dashboard?id=tatianamih_homeworke3_Objects_and_Classes)

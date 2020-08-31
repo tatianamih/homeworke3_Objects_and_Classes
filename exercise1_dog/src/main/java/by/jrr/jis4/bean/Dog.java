@@ -7,12 +7,12 @@ public class Dog {
     private String color;
     private String name;
 
-
     public Dog() {
         // no args constructor
     }
 
     public int getAge() {
+
         return age;
     }
 
@@ -25,10 +25,12 @@ public class Dog {
     }
 
     public void setColor(String color) {
+
         this.color = color;
     }
 
     public String getName() {
+
         return name;
     }
 

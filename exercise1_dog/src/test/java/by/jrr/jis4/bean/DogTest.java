@@ -6,6 +6,7 @@ import static org.junit.Assert.*;
 
 public class DogTest {
 
+
     @Test
     public void getAge() {
         Dog dog = new Dog();
@@ -15,8 +16,6 @@ public class DogTest {
         int actual = dog.getAge();
         assertEquals(expected, actual);
     }
-
-
 
     @Test
     public void getColor() {
@@ -29,8 +28,6 @@ public class DogTest {
     }
 
 
-
-
     @Test
     public void getName() {
         Dog dog = new Dog();
@@ -40,8 +37,6 @@ public class DogTest {
         String actual = dog.getName();
         assertEquals(expected, actual);
     }
-
-
 
     @Test
     public void testEqualsTrue() {
@@ -62,12 +57,12 @@ public class DogTest {
         boolean actual = dogFirst.equals(false);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testHashCodeColor() {
        Dog bentley = new Dog();
         bentley.setColor("white");
 
-        System.out.println(bentley.hashCode());
         Integer expected = -788779690;
         Integer actual = bentley.hashCode();
         assertEquals(expected, actual);
@@ -77,7 +72,6 @@ public class DogTest {
         Dog bentley = new Dog();
         bentley.setAge(2);
 
-        System.out.println(bentley.hashCode());
         Integer expected = 31713;
         Integer actual = bentley.hashCode();
         assertEquals(expected, actual);
@@ -88,21 +82,21 @@ public class DogTest {
         Dog bentley = new Dog();
         bentley.setColor("white");
 
-        System.out.println(bentley.toString());
         String expected = "Dog{age=0, color='white', name='null'}";
         String actual = bentley.toString();
         assertEquals(expected, actual);
     }
+
     @Test
     public void testToStringName() {
         Dog bentley = new Dog();
         bentley.setName("Bently");
 
-        System.out.println(bentley.toString());
         String expected = "Dog{age=0, color='null', name='Bently'}";
         String actual = bentley.toString();
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEquals() {
         Dog firstDog = new Dog();
